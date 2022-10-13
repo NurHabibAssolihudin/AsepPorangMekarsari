@@ -1,9 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="heroes.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="">APM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="views/about/index.php">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
 <div class="container mt-3">
     <!-- jumbotron -->
     <div class="container col-xxl-12 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
-                <img src="<?= BASEURL; ?>/img/backgroundAtas.png" class="d-block mx-lg-auto img-fluid" alt="Icon Pekebun" width="700" height="500" loading="lazy">
+                <img src="img/backgroundAtas.png" class="d-block mx-lg-auto img-fluid" alt="Icon Pekebun" width="700" height="500" loading="lazy">
             </div>
             <div class="col-lg-6">
                 <h1 class="display-5 fw-bold lh-1 mb-3">AsepPorangMekarsari</h1>
@@ -28,7 +67,7 @@
                     <h2 class="featurette-heading">Pengolahan Lahan Baru untuk Penanaman Bibit Porang</h2>
                     <p class="lead">Salah stau hal <em>terpenting</em> dalam suatu kegiatan budidaya adalah <b>"Lahan"</b>. Oleh karena itu, kami selalu memastikan <em>ketersediaan lahan</em> untuk penanaman <b>bibit baru</b>, dalam pengolahan lahan, kami selalu memastikan <em>kesesuaian tanah lahan</em> untuk porang, supaya porang yang dihasilkan bisa <b>maksimal</b></p>
                 </div>
-                <div class="col-md-5 order-md-1" style="background-image: url(<?= BASEURL; ?>/img/perawatan.jpeg); background-size: cover; background-position: top; border-radius: 30px;">
+                <div class="col-md-5 order-md-1" style="background-image: url(img/perawatan.jpeg); background-size: cover; background-position: top; border-radius: 30px;">
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
                     </svg>
 
@@ -42,7 +81,7 @@
                     <h2 class="featurette-heading">Pengujian Lahan</h2>
                     <p class="lead"><b>Pengujian</b> adalah hal yang <em>mesti dan harus dilakukan</em>, untuk mengetahui <b>kesesuaian lahan</b> dengan <em>bibit porang</em>. dalam pengujian lahan kami selalu <em>memastikan</em> setiap lahan yang hendak ditanami <em><b>sudah memiliki</b></em> <em>nutrisi</em> yang cukup untuk pertumbuhan poarang.</p>
                 </div>
-                <div class="col-md-5" style="background-image: url(<?= BASEURL; ?>/img/test2.jpeg); background-size: cover; background-position: center; border-radius: 30px;">
+                <div class="col-md-5" style="background-image: url(img/test2.jpeg); background-size: cover; background-position: center; border-radius: 30px;">
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
                     </svg>
 
@@ -56,7 +95,7 @@
                     <h2 class="featurette-heading">Kegiatan Perawatan Kebun oleh para Pekerja</h2>
                     <p class="lead"><b>Salah satu cara</b> yang kami lakukan untuk merawat lahan adalah <b><em>Pembersihan</em></b> dari <b>rumput ataupun gulma</b> yang bersifat <em>Mengganggu</em> bagi <em>pertumbuhan porang</em>. Selain itu kami juga melakukan <em>perawatan</em> dengan cara <b>membasmi hama</b> secara <em>rutin</em>.</p>
                 </div>
-                <div class="col-md-5 order-md-1" style="background-image: url(<?= BASEURL; ?>/img/perawatan.jpeg); background-size: cover; background-position: top; border-radius: 30px;">
+                <div class="col-md-5 order-md-1" style="background-image: url(img/perawatan.jpeg); background-size: cover; background-position: top; border-radius: 30px;">
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
                     </svg>
 
@@ -101,7 +140,7 @@
                     <h2 class="featurette-heading">Penyuluhan ke Berbagai Tempat</h2>
                     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, numquam ducimus? Voluptatum eligendi quasi provident doloribus laboriosam doloremque ex? Molestiae, ipsum et? Eius reprehenderit neque corrupti voluptatibus soluta quos voluptates!</p>
                 </div>
-                <div class="col-md-5" style="background-image: url(<?= BASEURL; ?>/img/ngobrol.jpg); background-size: cover; background-position: center; border-radius: 30px;">
+                <div class="col-md-5" style="background-image: url(img/ngobrol.jpg); background-size: cover; background-position: center; border-radius: 30px;">
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
                     </svg>
                 </div>
@@ -112,3 +151,62 @@
 </section>
 <!-- end project -->
 </div>
+<div class="container marketing">
+    <footer class=" row row-cols-5 py-5 my-5 border-top">
+        <div class="col">
+            <h5>Media Social</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" target="_blank">YouTube</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" target="_blank">Instagram</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" target="_blank">Facebook</a></li>
+                <li class="nav-item mb-2"><a
+                        href="https://api.whatsapp.com/send/?phone=6285771793911&text=Halo%2C+saya+menghubungi+dari+website+AsepPorangMekarsari.com&type=phone_number&app_absent=0"
+                        class="nav-link p-0 text-muted" target="_blank">WhatsUp</a></li>
+            </ul>
+        </div>
+
+        <div class="col">
+
+        </div>
+
+        <div class="col">
+            <h5>Navigation</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kontact</a></li>
+            </ul>
+        </div>
+
+        <div class="col">
+
+        </div>
+
+        <div class="col">
+            <h5>Join</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="https://paidiporang.com/" class="nav-link p-0 text-muted"
+                        target="_blank">PT.PAIDI INDO PORANG</a></li>
+            </ul>
+        </div>
+
+        <div class="col">
+
+        </div>
+
+        <div class="col">
+            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+            </a>
+            <p class="text-muted">&copy; 2022</p>
+        </div>
+    </footer>
+</div>
+
+<script src="js/bootstrap.js"></script>
+</body>
+
+</html>
